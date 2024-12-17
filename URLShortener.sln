@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLShortener", "URLShortener\URLShortener.csproj", "{816644C6-CE9F-4679-8B81-1847F6FE75B6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{05C780E8-0D77-472C-94A5-2F58EF1444C5} = {05C780E8-0D77-472C-94A5-2F58EF1444C5}
+		{BAD6A09E-873E-4D50-89C9-4810301DC705} = {BAD6A09E-873E-4D50-89C9-4810301DC705}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLShortener.Domain", "URLShortener.Domain\URLShortener.Domain.csproj", "{BAD6A09E-873E-4D50-89C9-4810301DC705}"
+	ProjectSection(ProjectDependencies) = postProject
+		{05C780E8-0D77-472C-94A5-2F58EF1444C5} = {05C780E8-0D77-472C-94A5-2F58EF1444C5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLShortener.Data", "URLShortener.Data\URLShortener.Data.csproj", "{05C780E8-0D77-472C-94A5-2F58EF1444C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{816644C6-CE9F-4679-8B81-1847F6FE75B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816644C6-CE9F-4679-8B81-1847F6FE75B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816644C6-CE9F-4679-8B81-1847F6FE75B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816644C6-CE9F-4679-8B81-1847F6FE75B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD6A09E-873E-4D50-89C9-4810301DC705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD6A09E-873E-4D50-89C9-4810301DC705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD6A09E-873E-4D50-89C9-4810301DC705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD6A09E-873E-4D50-89C9-4810301DC705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C780E8-0D77-472C-94A5-2F58EF1444C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C780E8-0D77-472C-94A5-2F58EF1444C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C780E8-0D77-472C-94A5-2F58EF1444C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C780E8-0D77-472C-94A5-2F58EF1444C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A0B7383-CE5A-4ECF-B13D-1D3965BCCBF8}
+	EndGlobalSection
+EndGlobal
